@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div style={{ padding: "20px" }}>
+    <div className="page">
       <h1>About Me</h1>
       <p>
         This page is about my personal growth journey, skills,
@@ -11,3 +11,5 @@ function About() {
 }
 
 export default About;
+
+

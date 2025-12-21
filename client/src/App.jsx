@@ -12,11 +12,21 @@ function App() {
       </nav>
 
       <Routes>
-        <Route path="/" element={<h1>Personal Growth 🚀</h1>} />
+        <Route
+  path="/"
+  element={
+    <div className="page">
+      <h1>Personal Growth 🚀</h1>
+      <p>Building myself step by step through learning and practice.</p>
+    </div>
+  }
+/>
+
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </>
+
   );
 }
 

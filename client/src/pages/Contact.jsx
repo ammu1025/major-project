@@ -1,11 +1,12 @@
 function Contact() {
   return (
-    <div style={{ padding: "20px" }}>
+    <div className="page">
       <h1>Contact</h1>
-      <p>Email: yourname@email.com</p>
-      <p>LinkedIn: linkedin.com/in/yourname</p>
+      <p>Email: ammuswathi1025@gmail.com</p>
+      <p>LinkedIn: linkedin.com/in/swathiarumugam</p>
     </div>
   );
 }
 
 export default Contact;
+
