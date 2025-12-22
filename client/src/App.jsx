@@ -3,6 +3,8 @@ import { useState, useEffect } from "react";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import BlogList from "./pages/blogs/BlogList";
+import BlogDetails from "./pages/blogs/BlogDetails";
+
 
 
 function App() {
@@ -51,6 +53,8 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<BlogList />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/blog/:id" element={<BlogDetails />} />
+
       </Routes>
     </>
   );
