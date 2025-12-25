@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 
 const blogs = [
   {
@@ -23,16 +23,21 @@ const blogs = [
 
 function BlogDetails() {
   const { id } = useParams();
+
   const blog = blogs.find((b) => b.id === id);
 
   if (!blog) {
-    return <div className="page">Blog not found</div>;
+    return <h2>Blog not found</h2>;
   }
 
   return (
     <div className="page">
       <h1>{blog.title}</h1>
       <p>{blog.content}</p>
+
+      <Link to="/blog">
+        ← Back to Blogs
+      </Link>
     </div>
   );
 }
