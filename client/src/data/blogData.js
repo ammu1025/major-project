@@ -1,25 +1,38 @@
-const blogData = [
+const blogs = [
   {
-    id: "1",
-    title: "My Journey into Web Development",
-    description: "How I started learning frontend step by step.",
-    content:
-      "This is where I share how I started learning frontend, the mistakes I made, and how I improved day by day.",
+    id: 1,
+    title: "My First Blog",
+    description: "This is my first blog post",
+    content: `
+      This is my first blog, and it marks the beginning of my journey
+      into writing and self-expression.
+
+      Through this blog, I want to share my thoughts, experiences,
+      and lessons that I learn every day.
+
+      Growth is not about being perfect. It’s about being consistent,
+      learning from mistakes, and moving forward one step at a time.
+
+      I hope my journey inspires you to start yours too.
+    `,
   },
+
   {
-    id: "2",
-    title: "Understanding React Basics",
-    description: "Components, props, and state made simple.",
-    content:
-      "React became easier once I understood components, props, and state properly.",
-  },
-  {
-    id: "3",
-    title: "Consistency Beats Motivation",
-    description: "Why daily effort matters more than hype.",
-    content:
-      "Motivation fades, but consistency builds real growth over time.",
+    id: 2,
+    title: "Learning Web Development",
+    description: "How I started learning web development",
+    content: `
+      Learning web development was challenging at first.
+
+      There were moments of confusion, errors that didn’t make sense,
+      and days where nothing worked.
+
+      But slowly, things started clicking. Each error taught me something new.
+      Every small success built my confidence.
+
+      This blog is proof that persistence always pays off.
+    `,
   },
 ];
 
-export default blogData;
+export default blogs;
